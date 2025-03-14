@@ -1,0 +1,36 @@
+@use "../styles/partials/colors";
+@use "../styles/partials/fonts";
+
+header{
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+            margin: 195px 0 0 0;
+            a{
+                font-size: 1.5rem;
+                background-color: colors.$darkslate_gray;
+                font-family: fonts.$default;
+                font-weight: bold;
+                padding: 1.5rem clamp(70px, 5.5vw, 103px);
+                color: colors.$white;
+                text-transform: capitalize;
+            }
+            a:hover{
+                color: colors.$white;
+            }
+            
+        }
+    }
+}
+
+.activeTab{
+    text-decoration: underline colors.$darkslate_gray 2.5px;
+    background-color: colors.$white;
+    color: colors.$darkslate_gray;
+}
+.activeTab:hover{
+    color: colors.$darkslate_gray;
+}

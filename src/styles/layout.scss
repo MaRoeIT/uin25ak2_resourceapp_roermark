@@ -1,0 +1,19 @@
+@use "./partials/colors";
+@use "./partials/fonts";
+
+#root{
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+body{
+    background-color: colors.$gainsboro;
+    place-items: baseline;
+}
+
+main{
+    font-size: 21px;
+    background-color: colors.$white;
+    font-family: fonts.$default;
+}

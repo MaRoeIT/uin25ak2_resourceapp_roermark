@@ -1,0 +1,22 @@
+@use "./partials/colors";
+
+article{
+    padding: 9rem 5.5rem;
+    h2{
+        margin: 0;
+        color: colors.$darkslate_gray;
+        text-transform: capitalize;
+    }
+    ul{
+        li{
+            color: colors.$darkslate_gray;
+            a{
+                color: colors.$darkslate_gray;
+            }
+        }
+        li::marker{
+            color: colors.$darkslate_gray;
+        }
+        list-style: hiragana;
+    }
+}
