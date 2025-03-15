@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- React Atom Logo -->
+    <g stroke="#61DAFB" stroke-width="3" fill="none">
+        <ellipse cx="50" cy="50" rx="30" ry="15" transform="rotate(0 50 50)"/>
+        <ellipse cx="50" cy="50" rx="30" ry="15" transform="rotate(60 50 50)"/>
+        <ellipse cx="50" cy="50" rx="30" ry="15" transform="rotate(120 50 50)"/>
+    </g>
+    <!-- React Core Circle -->
+    <circle cx="50" cy="50" r="5" fill="#61DAFB"/>
+    
+    <!-- Sanity Red Block -->
+    <rect x="70" y="10" width="20" height="20" fill="#FF3E00" transform="rotate(15 80 20)"/>
+    
+    <!-- Letters R and S -->
+    <text x="30" y="90" font-family="Arial" font-size="20" fill="#61DAFB" font-weight="bold">R</text>
+    <text x="65" y="90" font-family="Arial" font-size="20" fill="#FF3E00" font-weight="bold">S</text>
+</svg>
