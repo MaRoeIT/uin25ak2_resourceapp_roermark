@@ -36,3 +36,20 @@ header{
 .activeTab:hover{
     color: colors.$darkslate_gray;
 }
+
+@media only screen and (max-width: 1200px) {
+    nav{
+        ul{
+            flex-direction: column;
+            margin-top: 0;
+            li{
+                a{
+                    border: 3px solid colors.$gainsboro;
+                    border-radius: 20px;
+                    width: calc(100% - 20px);
+                    margin: 0 10px;
+                } 
+            }
+        }
+    }
+}
