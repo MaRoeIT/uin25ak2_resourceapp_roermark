@@ -1,3 +1,6 @@
+/**
+ * a variable containing all the content of the site.
+ */
 export const resources = [
   {
     title: "W3Schools",
