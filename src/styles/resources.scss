@@ -1,12 +1,16 @@
 @use "./partials/colors";
 
+//the styling of the article box sorounding the main content.
 article{
     padding: 9rem 5.5rem;
+    //styling of the content title, 
+    //capitalizes the string as it is not capitalized in the persistan storage
     h2{
         margin: 0;
         color: colors.$darkslate_gray;
         text-transform: capitalize;
     }
+    //The list of links to resourses.
     ul{
         li{
             color: colors.$darkslate_gray;

@@ -1,6 +1,7 @@
 @use "./partials/colors";
 @use "./partials/fonts";
 
+//Size placement and margin of the box containing the content on the site.
 #root{
     margin: 0 auto;
     max-width: 1600px;
@@ -12,6 +13,7 @@ body{
     place-items: baseline;
 }
 
+//Default fontsize, backgroun color and fontfamily for the main part of the site.
 main{
     font-size: 21px;
     background-color: colors.$white;

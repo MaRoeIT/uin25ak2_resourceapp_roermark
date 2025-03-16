@@ -1,6 +1,7 @@
 @use "../styles/partials/colors";
 @use "../styles/partials/fonts";
 
+//Styling for the nav bar.
 header{
     nav{
         ul{
@@ -18,6 +19,7 @@ header{
                 color: colors.$white;
                 text-transform: capitalize;
             }
+            //Added to overwrite the base hover effect.
             a:hover{
                 color: colors.$white;
             }
@@ -25,6 +27,7 @@ header{
     }
 }
 
+//Styling of the selected categorys corresponding navItem.
 .activeTab{
     text-decoration: underline colors.$darkslate_gray 2.5px;
     background-color: colors.$white;

@@ -1,7 +1,8 @@
-import { Navigate, Route, Routes, useParams } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
+import { useState } from 'react'
+
 import Layout from "./components/Layout"
 import Resources from './components/Resources'
-import { useEffect, useState } from 'react'
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState("html");
